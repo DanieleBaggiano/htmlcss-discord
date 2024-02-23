@@ -1,0 +1,192 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.container-header {
+    background-color: #00008b;
+    height: 200px;
+}
+
+/* navigazione */
+.navigazione {
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+}
+
+.logo, .login {
+    background-color: #daa520;
+    border: 1px dashed black;
+    width: 10%;
+    margin: 5px 0;
+}
+
+.link {
+    background-color: #daa520;
+    border: 1px dashed black;
+    width: 40%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.login {
+    text-align: end;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.rettangolo-rosa {
+    width: 500px;
+    height: 150px;
+    background-color: #ee82ee;
+    margin-top: 10px;
+}
+
+/* MAIN */
+.container-primo-rettangolo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.primo-rettangolo-blu {
+    width: 40%;
+    height: 180px;
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+
+.primo-rettangolo-rosa {
+    width: 20%;
+    height: 180px;
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
+/* secondo rettangolo con sfondo grigio */
+.container-secondo-rettangolo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #d3d3d3;
+}
+
+.secondo-rettangolo-rosa {
+    width: 20%;
+    height: 180px;
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
+.secondo-rettangolo-blu {
+    width: 40%;
+    height: 180px;
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+
+/* terzo rettangolo */
+.container-terzo-rettangolo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.terzo-rettangolo-blu {
+    width: 40%;
+    height: 180px;
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+
+.terzo-rettangolo-rosa {
+    width: 20%;
+    height: 180px;
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
+/* quarto rettangolo verde con sfondo grigio */
+.container-quarto-rettangolo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: #d3d3d3;
+}
+
+.rettangolo-verde {
+    height: 380px;
+    width: 60%;
+    background-color: #228b22;
+    border: 1px dashed black;
+}
+
+/* FOOTER */
+/* prima parte di footer */
+.container-footer {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    background-color: black;
+}
+
+.rosso {
+    width: 20%;
+    height: 190px;
+    background-color: #f08080;
+    border: 1px dashed black;
+}
+
+.prima-colonna, .seconda-colonna, .terza-colonna, .quarta-colonna {
+    width: 10%;
+    height: 190px;
+    background-color: #20b2aa;
+    border: 1px dashed white;
+}
+
+/* seconda parte di footer con logo e bottone */
+.secondo-container-footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: end;
+    height: 50px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.contenitore {
+    height: 40px;
+    width: 60%;
+    background-color: #7fffd4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secondo-logo {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
+
+.bottone {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
