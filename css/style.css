@@ -95,9 +95,10 @@ h2 {
 
 p {
     line-height: 20px;
+    font-size: 0.7rem;
 }
 
-.scarica, .apri-discord {
+.scarica, .apri-discord, .scarica-mac {
     border-radius: 20px;
     padding: 10px;
     border: none;
@@ -112,70 +113,93 @@ p {
 .container-primo-rettangolo {
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 400px;
     align-content: center;
     flex-wrap: wrap;
 }
 
-.primo-rettangolo-blu {
+.study-group {
     width: 40%;
-    height: 180px;
-    background-color: #1e90ff;
-    border: 1px dashed black;
+    height: 380px;
+
+    /* debug */
+    /* background-color: #1e90ff;
+    border: 1px dashed black; */
 }
 
-.primo-rettangolo-rosa {
-    width: 20%;
-    height: 180px;
-    background-color: #ffc0cb;
-    border: 1px dashed black;
+.contenitore-canali {
+    width: 30%;
+    max-height: 380px;
+    margin-top: 75px;
+
+    /* debug */
+    /* background-color: #ffc0cb;
+    border: 1px dashed black; */
+}
+
+.titolo-canali, .titolo-voice, .titolo-community {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 /* secondo rettangolo con sfondo grigio */
 .container-secondo-rettangolo {
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 400px;
     align-content: center;
     flex-wrap: wrap;
-    background-color: #d3d3d3;
+    background-color: rgb(246 246 246);
+    padding-top: 70px;
 }
 
-.secondo-rettangolo-rosa {
-    width: 20%;
-    height: 180px;
-    background-color: #ffc0cb;
-    border: 1px dashed black;
-}
-
-.secondo-rettangolo-blu {
+.voice-connected {
     width: 40%;
-    height: 180px;
-    background-color: #1e90ff;
-    border: 1px dashed black;
+    height: 380px;
+
+    /* debug */
+    /* background-color: #ffc0cb;
+    border: 1px dashed black; */
+}
+
+.contenitore-voice {
+    width: 30%;
+    height: 380px;
+    margin-top: 75px;
+
+    /* debug */
+    /* background-color: #1e90ff;
+    border: 1px dashed black; */
 }
 
 /* terzo rettangolo */
 .container-terzo-rettangolo {
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 400px;
     align-content: center;
     flex-wrap: wrap;
+    padding-top: 70px;
 }
 
-.terzo-rettangolo-blu {
+.community {
     width: 40%;
-    height: 180px;
-    background-color: #1e90ff;
-    border: 1px dashed black;
+    height: 380px;
+
+    /* debug */
+    /* background-color: #1e90ff;
+    border: 1px dashed black; */
 }
 
-.terzo-rettangolo-rosa {
+.contenitore-community {
     width: 20%;
-    height: 180px;
-    background-color: #ffc0cb;
-    border: 1px dashed black;
+    height: 380px;
+    margin-top: 75px;
+
+    /* debug */
+    /* background-color: #ffc0cb;
+    border: 1px dashed black; */
 }
 
 /* quarto rettangolo verde con sfondo grigio */
@@ -184,15 +208,20 @@ p {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    height: 400px;
-    background-color: #d3d3d3;
+    height: 800px;
+    background-color: rgb(246 246 246);
 }
 
-.rettangolo-verde {
-    height: 380px;
-    width: 60%;
-    background-color: #228b22;
-    border: 1px dashed black;
+.contenitore-video {
+    width: 70%;
+}
+
+.video {
+    width: 70%;
+
+    /* debug */
+    /* background-color: #228b22;
+    border: 1px dashed black; */
 }
 
 /* FOOTER */
@@ -247,4 +276,24 @@ p {
 .bottone {
     background-color: #ffb6c1;
     border: 1px dashed black;
+} 
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titolo-scarica-mac {
+    font-size: 1.2rem;
+    background-image: url(../img/stars.svg);
+    padding: 20px 20px 0 20px;
+    background-size: contain;
+}
+
+.scarica-mac {
+    color: white;
+    background-color: rgb(114 137 218);
+    width: 40%;
+    margin-top: 30px;
 }
