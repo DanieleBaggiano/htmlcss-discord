@@ -98,7 +98,7 @@ p {
     font-size: 0.7rem;
 }
 
-.scarica, .apri-discord, .scarica-mac {
+.scarica, .apri-discord, .scarica-mac, .registrati {
     border-radius: 20px;
     padding: 10px;
     border: none;
@@ -208,75 +208,16 @@ p {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
     height: 800px;
     background-color: rgb(246 246 246);
 }
 
-.contenitore-video {
-    width: 70%;
-}
-
 .video {
-    width: 70%;
-
     /* debug */
     /* background-color: #228b22;
     border: 1px dashed black; */
 }
-
-/* FOOTER */
-/* prima parte di footer */
-.container-footer {
-    display: flex;
-    height: 200px;
-    justify-content: center;
-    background-color: black;
-}
-
-.rosso {
-    width: 20%;
-    height: 190px;
-    background-color: #f08080;
-    border: 1px dashed black;
-}
-
-.prima-colonna, .seconda-colonna, .terza-colonna, .quarta-colonna {
-    width: 10%;
-    height: 190px;
-    background-color: #20b2aa;
-    border: 1px dashed white;
-}
-
-/* seconda parte di footer con logo e bottone */
-.secondo-container-footer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: end;
-    height: 50px;
-    background-color: black;
-    border: 1px solid white;
-}
-
-.contenitore {
-    height: 40px;
-    width: 60%;
-    background-color: #7fffd4;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.secondo-logo {
-    background-color: #ffb6c1;
-    border: 1px dashed black;
-}
-
-.bottone {
-    background-color: #ffb6c1;
-    border: 1px dashed black;
-} 
 
 .column {
     display: flex;
@@ -294,6 +235,119 @@ p {
 .scarica-mac {
     color: white;
     background-color: rgb(114 137 218);
-    width: 40%;
     margin-top: 30px;
 }
+
+/* FOOTER */
+/* prima parte di footer */
+.container-footer {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    background-color: rgb(35 39 42);    
+}
+
+.parlare {
+    width: 26.6666%;
+    height: 340px;
+    color: rgb(114 137 218);
+    padding: 40px 60px;
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    flex-direction: column;
+
+    /* debug */
+    /* background-color: #f08080;
+    border: 1px dashed black; */
+}
+
+.bandiera {
+    width: 15px;
+}
+
+.italiano {
+    color: white;
+    font-size: 10px;
+}
+
+.brands {
+    color: white;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
+
+.prima-colonna, .seconda-colonna, .terza-colonna, .quarta-colonna {
+    width: 13.3333%;
+    height: 340px;
+    padding: 40px 20px;
+
+    /* debug */
+    /* background-color: #20b2aa;
+    border: 1px dashed white; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+.prodotto, .lista {
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+}
+
+.prodotto {
+    color: rgb(114 137 218);
+}
+
+.lista {
+    color: white;
+}
+
+/* seconda parte di footer con logo e bottone */
+.secondo-container-footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: end;
+    height: 90px;
+    background-color: rgb(35 39 42);
+
+    /* debug */
+    /* border: 1px solid white; */
+}
+
+.contenitore {
+    height: 80px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(114 137 218);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* debug */
+    /* background-color: #7fffd4; */
+}
+
+.secondo-logo {
+    width: 12%;
+
+    /* debug */
+    /* background-color: #ffb6c1;
+    border: 1px dashed black; */
+}
+
+.registrati {
+    color: white;
+    background-color: rgb(114 137 218);
+}
+
+/* .bottone {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}  */
+
